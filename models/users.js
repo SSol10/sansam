@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Users.init(
     {
-      userid: {
+      userId: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,

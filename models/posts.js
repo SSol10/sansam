@@ -13,12 +13,12 @@ module.exports = (sequelize, DataTypes) => {
   }
   Posts.init(
     {
-      userid: {
+      userId: {
         allowNull: false,
         type: DataTypes.INTEGER,
       },
 
-      postid: {
+      postId: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
